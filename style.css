@@ -1,0 +1,18 @@
+h1 {
+  color: violet;
+  font-style: italic;
+}
+h2 {
+  color: brown;
+  font-style: italic;
+}
+a {
+  color: crimson;
+  font-style: italic;
+}
+img {
+  transition: 1.5s;
+}
+input:checked ~ img {
+  width: 100px;
+}
